@@ -1,7 +1,7 @@
 {
   "name": "rax-app-template",
-  "version": "0.1.1",
-  "description": "rax example",
+  "version": "0.1.2",
+  "description": "rax app template",
   "dependencies": {
     "rax": "^1.1.0",
     "rax-document": "^0.1.0",
@@ -12,7 +12,15 @@
   },
   "devDependencies": {
     "rax-app": "3.0.0-3",
-    "@types/rax": "^1.0.0"
+    "@types/rax": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.11.0",
+    "@typescript-eslint/parser": "^2.11.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-rax": "^0.1.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-module": "^0.1.0",
+    "eslint-plugin-react": "^7.18.0"
   },
   "scripts": {
     "start": "rax-app start",
